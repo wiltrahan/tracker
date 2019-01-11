@@ -2,7 +2,7 @@ import { NgForm } from '@angular/forms';
 import { Exercise } from './../exercise.model';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { TrainingService } from '../training.service';
-import { Observable, Subscription } from 'rxjs';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-new-training',
